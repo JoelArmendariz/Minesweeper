@@ -1,0 +1,98 @@
+body {
+  background-color: #7B7B7B
+}
+
+.row {
+  display: flex;
+  flex-direction: row
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 16px;
+  width: 16px;
+  cursor: pointer
+}
+
+.border {
+  height: 10px;
+  width: 16px;
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -40px -81px;
+}
+
+.left {
+  height: 16px;
+  width: 10px;
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -134px -39px;
+}
+
+.border-container {
+  display: flex;
+  flex-direction: row
+}
+
+.header {
+  width: 160px;
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+}
+
+.covered {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: 0 -39px;
+}
+
+.uncovered {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: 0px -23px;
+}
+
+.smiley {
+  height: 26px;
+  width: 26px;
+  background-image: url('MinesweeperIcons.gif');
+  background-position: 0px -55px;
+  cursor: pointer
+}
+
+.one {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -16px -23px;
+}
+.two {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -32px -23px;
+}
+.three {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -48px -23px;
+}
+.four {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -64px -23px;
+}
+.five {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -80px -23px;
+}
+.six {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -96px -23px;
+}
+
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
