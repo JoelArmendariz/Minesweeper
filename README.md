@@ -10,55 +10,9 @@ This is a recreation of the classic desktop game *Minesweeper*
 
 ## Technologies
 
-<table style="width:60%">
-  <tr>
-
-  </tr>
-  <tr>
-    <td class="subheading">Frontend</td>
-    <td><img src="https://lh3.googleusercontent.com/ZIHOUCCxFaB7NirPhEX4K8cyTPIMvxvdJxpuhjb_qJ_dk-z7qEgD8riaR0ODXzXQZYn23zHpFiwGzxTDT88FTLeUMoPqlIjyLKoL1am8MH5pCoJExjL8SUC8uaeeiAjvQB0_vym6" width="65"/></td> 
-    <td><img src="https://material-ui.com/static/images/material-ui-logo.svg" width="58" style="padding-left: 37px;"/></td>
-    <td><img src="https://lh5.googleusercontent.com/pqPRWyCMu39CU4GAERH3XI0fri2uJzMteIV5t-4qAG566IJWdXRABxLjV1jwdVvID-NvFw3USgyM8FXC5w_yAimYz4FY1gVEm96Yd2JQZh-pYl33lHpbOI7-3-uTixqgX1XHRker" width="75"/></td>
-    <td></td>
-    <td class="tech">(React Material-ui ReactRouter)</td>
-  </tr>
-  <tr rowspan="2">
-    <td class="subheading">Backend</td>
-    <td><img src="https://lh5.googleusercontent.com/rdAoVdYKOCnmtev6t7DJrEY7mG4iYsRPqeTH0Z-OrlsVmiea3q5SMtOGNSa7HzJcyxcIcelTacG5gPNgyBoIviiNcLbohQAicvpldcfM32Klb_ewouDRd67OtYhUAU1CEZB4rBqB" width="75" /></td> 
-    <td><img src="https://lh6.googleusercontent.com/tKlT8lGB2bTDqSilr_a2y8vaO-QBUdcUIYASnslf-RAKTxUEiEBq-_gTVBP0irIP1ZWNuSvp1fouOJrQBXUr0joVmBZzNyOec4jBpOyVogPZMOYhPH6YQwYOiLdZnfuaDnFel9rn" width="75" style="padding-left: 27px;"/></td>
-    <td><img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" width="50" style="padding-left: 15px;"/></td>
-    <td></td>
-    <td class="tech">(Node express Postgres)</td>
-  </tr>
-  
-  <tr>
-      <td class="subheading">Dev Tools</td>
-      <td><img src='https://cityscoutssss.s3.us-east-2.amazonaws.com/kisspng-webpack-computer-icons-scalable-vector-graphics-re-webpack-svg-icon-transparent-amp-png-clipart-fre-5cb7987106ca27.6083469215555359850278.png' width="60"></td>
-      <td><img src='https://i2.wp.com/endlessillusoft.com/wp-content/uploads/2017/01/babel.png?w=1280' width="80" style="padding-left: 27px"><img></td>
-      <td><img src='https://imga.apk.tools/150/a/e/5/st.tom.cronjobs.png' width="50" style="padding-left: 15px"/></td>
-      <td></td>
-      <td class="tech">(Webpack Babel Cron-jobs)</td>
-    </tr>
-      <tr rowspan="3">
-    <td class="subheading">Testing</td>
-    <td>Chai</td>
-    <td>Mocha</td>
-    <td>Jest</td>
-    <td>Enzyme</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td class="subheading">APIs</td>
-    <td>Google OaUth</td>
-    <td>Google Images</td>
-    <td>TicketMaster</td>
-    <td>EventBrite</td>
-    <td>PredictHq</td>
-  </tr>
-
-  
-  
-</table>
+<img src="https://lh3.googleusercontent.com/ZIHOUCCxFaB7NirPhEX4K8cyTPIMvxvdJxpuhjb_qJ_dk-z7qEgD8riaR0ODXzXQZYn23zHpFiwGzxTDT88FTLeUMoPqlIjyLKoL1am8MH5pCoJExjL8SUC8uaeeiAjvQB0_vym6" width="65"/>
+<img src="https://lh5.googleusercontent.com/rdAoVdYKOCnmtev6t7DJrEY7mG4iYsRPqeTH0Z-OrlsVmiea3q5SMtOGNSa7HzJcyxcIcelTacG5gPNgyBoIviiNcLbohQAicvpldcfM32Klb_ewouDRd67OtYhUAU1CEZB4rBqB" width="75" />
+<img src="https://lh6.googleusercontent.com/tKlT8lGB2bTDqSilr_a2y8vaO-QBUdcUIYASnslf-RAKTxUEiEBq-_gTVBP0irIP1ZWNuSvp1fouOJrQBXUr0joVmBZzNyOec4jBpOyVogPZMOYhPH6YQwYOiLdZnfuaDnFel9rn" width="75" style="padding-left: 27px;"/>
 
 
 ### Technical Challenges/Research
