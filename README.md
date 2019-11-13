@@ -1,4 +1,4 @@
-![Imgur](https://i.imgur.com/8SWV1OL.png)
+![Imgur](https://i.imgur.com/4VbRQdG.png)
 
 ## About
 
