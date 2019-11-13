@@ -1,6 +1,4 @@
-<p align="center">
-  <imgheight="500" src="https://i.imgur.com/8SWV1OL.png">
-</p>
+[Imgur](https://i.imgur.com/8SWV1OL.png)
 
 ## About
 
