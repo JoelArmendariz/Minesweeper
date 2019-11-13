@@ -1,10 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { useSelector, useDispatch } from 'react-redux';
+import { restart } from '../actions/index';
 
 const Header = () => {
+  const dispatch = useDispatch();
+
   const restartGame = () => {
-    console.log('restart')
+    console.log('first level')
+    dispatch(restart());
   }
 
   return (

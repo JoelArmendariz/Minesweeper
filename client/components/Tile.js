@@ -7,6 +7,9 @@ import classNames from 'classnames'
 class Tile extends React.Component {
   constructor (props) {
     super(props);
+    this.state = {
+      isFlagged: false
+    }
 
     this.buildBoard = this.buildBoard.bind(this)
     this.handleClick = this.handleClick.bind(this)
@@ -38,10 +41,17 @@ class Tile extends React.Component {
 
     }
     this.props.dispatch( placeTile(this.props.row, this.props.col, this.props.board) )
-    console.log(event.target)
+  }
+
+  handleDoubleClick(event) {
+    console.log('hello')
+    this.setState({
+      isFlagged: 'flagged'
+    })
   }
 
   render() {
+    let flagged = this.state.isFlagged || ''
     let tileValue = this.props.board[this.props.row][this.props.col];
       if (tileValue !== 'bomb' && tileValue) {
         if(tileValue === 1) {
@@ -55,10 +65,10 @@ class Tile extends React.Component {
         } else if(tileValue === 5) {
           return <div className='tile five' onClick={this.handleClick}></div>
         } else {
-          return <div className='tile uncovered' onClick={this.handleClick}>{tileValue > 0 ? tileValue : null}</div>
+          return <div className={`tile ${tileValue}`} onClick={this.handleClick}></div>
         }
       } else {
-        return <div className='tile covered' onClick={this.handleClick}></div>
+        return <div className={`tile covered${flagged}`} onDoubleClick={this.handleDoubleClick} onClick={this.handleClick}></div>
       }
   }
 }

@@ -32,7 +32,7 @@ const checkSpace = (state = initialState.board, action) => {
   switch (action.type) {
     case 'PLACE_TILE':
       let newBoard = cloneDeep(state)
-      newBoard[action.payload.x][action.payload.y] = action.payload.bombCount || -1;
+      newBoard[action.payload.x][action.payload.y] = action.payload.bombCount || 'uncovered';
       return newBoard;
     default:
       return state
@@ -62,6 +62,17 @@ const isFirst = (state = initialState.isFirst, action) => {
     case 'STARTED':
       return !state;
     default:
+      return state
+  }
+}
+
+const restarted = (state = initialState.board, action) => {
+  switch (action.type) {
+    case 'RESTART':
+      console.log(state)
+      return state;
+    default:
+        console.log('default')
       return state
   }
 }

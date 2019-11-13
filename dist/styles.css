@@ -64,6 +64,10 @@ body {
   cursor: pointer
 }
 
+.flagged {
+  background-image: url('MinesweeperIcons.gif');
+  background-position: -16px -39px;
+}
 .one {
   background-image: url('MinesweeperIcons.gif');
   background-position: -16px -23px;

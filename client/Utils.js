@@ -52,7 +52,7 @@ const checkCount = (x, y, board) => {
     }
 
     if (!bombCount) {
-      board[x][y] = -1;
+      board[x][y] = 'uncovered';
     }
 
     if (bombCount) {

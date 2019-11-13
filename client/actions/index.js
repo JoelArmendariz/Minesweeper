@@ -19,3 +19,10 @@ export const started = () => {
     type: 'STARTED'
   }
 }
+
+export const restart = () => {
+  console.log('second level')
+  return {
+    type: 'RESTART'
+  }
+}
